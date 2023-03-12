@@ -397,12 +397,14 @@ margin-top: auto;
 }
 
 
-/* hero */
+/* HERO */
 .hero{
-    max-width: 1440px;
+    /* max-width: 428px;
+    max-height: 432px; */
     margin: 0 auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),  url(../images/mobile/mobile-bg.jpg);
     background-color: var(--secondary-text-color);
+    background-repeat: no-repeat;
     
     background-size: cover;
     background-repeat: no-repeat;
@@ -412,6 +414,43 @@ margin-top: auto;
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
+@media screen and (min-device-pixel-ratio:2) and (max-width: 767px), 
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .hero{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile/mobile-bg@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 768px){
+   .hero{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet/tablet-bg.jpg);
+}
+}
+
+@media screen and (min-device-pixel-ratio:2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet/tablet-bg@2x.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desktop/desktop-bg.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio:2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desktop/desktop-bg@2x.jpg);
+    }
+}
+
 
 .hero-title{
     max-width: 494px;
