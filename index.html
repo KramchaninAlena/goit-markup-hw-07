@@ -138,13 +138,13 @@
       </section>
 
       <!-- skills -->
-      <!-- <section class="skills">
+      <section class="skills">
         <div class="container skills-container">
           <h2 class="visually-hidden">Skills</h2>
           <ul class="slills-list list">
             <li class="skills-item">
               <div class="skills-icon">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="skills-item-icon">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -156,7 +156,7 @@
             </li>
             <li class="skills-item">
               <div class="skills-icon">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="skills-item-icon">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -168,7 +168,7 @@
             </li>
             <li class="skills-item">
               <div class="skills-icon">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="skills-item-icon">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -180,7 +180,7 @@
             </li>
             <li class="skills-item">
               <div class="skills-icon">
-                <svg width="64" height="64">
+                <svg width="64" height="64" class="skills-item-icon">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -192,10 +192,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- work -->
-      <!-- <section class="section-work">
+      <section class="section-work">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="work-list list">
@@ -225,22 +225,23 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- our team -->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img
-                src="./images/photo1.jpg"
+                srcset="./images/team-mark@2x.jpg 2x"
+                src="./images/team-mark.jpg"
                 alt="photo"
                 width="264"
                 class="block-list"
               />
               <div class="card">
-                <h3 class="section-sub-title">Mark Guerrero</h3>
+                <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-text">Product Designer</p>
                 <ul class="team-icon list">
                   <li class="team-icon-item">
@@ -276,13 +277,14 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/photo2.jpg"
+                srcset="./images/team-tom@2x.jpg 2x"
+                src="./images/team-tom.jpg"
                 alt="photo"
                 width="264"
                 class="block-list"
               />
               <div class="card">
-                <h3 class="section-sub-title">Tom Ford</h3>
+                <h3 class="team-title">Tom Ford</h3>
                 <p class="team-text">Frontend Developer</p>
                 <ul class="team-icon list">
                   <li class="team-icon-item">
@@ -318,13 +320,14 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/photo3.jpg"
+                srcset="./images/team-camila@2x.jpg 2x"
+                src="./images/team-camila.jpg"
                 alt="photo"
                 width="264"
                 class="block-list"
               />
               <div class="card">
-                <h3 class="section-sub-title">Camila Garcia</h3>
+                <h3 class="team-title">Camila Garcia</h3>
                 <p class="team-text">Marketing</p>
                 <ul class="team-icon list">
                   <li class="team-icon-item">
@@ -360,13 +363,14 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/photo4.jpg"
+                srcset="./images/team-daniel@2x.jpg 2x"
+                src="./images/team-daniel.jpg"
                 alt="photo"
                 width="264"
                 class="block-list"
               />
               <div class="card">
-                <h3 class="section-sub-title">Daniel Wilson</h3>
+                <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-text">UI Designer</p>
                 <ul class="team-icon list">
                   <li class="team-icon-item">
@@ -402,10 +406,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- customers -->
-      <!-- <section class="section-customers">
+      <section class="section-customers">
         <div class="container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-list list">
@@ -453,7 +457,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!-- <footer class="footer">
@@ -525,7 +529,7 @@
     </footer> -->
 
     <!-- modal window -->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
@@ -599,9 +603,9 @@
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
 
     <script src="./js/mobile-menu.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
