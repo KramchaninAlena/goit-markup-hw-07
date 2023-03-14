@@ -821,50 +821,74 @@
 
     <footer class="footer">
       <div class="container container-footer">
-        <div class="footer-left-side">
-          <a href="./index.html" class="logo list"
-            >Web<span class="logo-web">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
+        <div class="footer-wrapper">
+          <div class="footer-left-side">
+            <a href="./index.html" class="logo list"
+              >Web<span class="logo-web">Studio</span></a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+          <div class="footer-social">
+            <h2 class="footer-title">Social media</h2>
+            <ul class="social-list list">
+              <li class="social-item">
+                <a href="" class="social-link">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-link">
+                  <svg class="footer-icon" width="24" height="24">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-right-side">
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-form">
+              <label for="user_sub"></label>
+              <input
+                id="user_sub"
+                type="email"
+                name="user-email"
+                class="footer-form-input"
+                placeholder="E-mail"
+                required
+              />
 
-        <div class="footer-social">
-          <h2 class="footer-title">Social media</h2>
-          <ul class="social-list list">
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-instagram"></use>
+              <button type="submit" class="footer-form-button">
+                Subscribe
+                <svg class="footer-form-icon" width="24" height="20">
+                  <use href="./images/sprite.svg#icon-send"></use>
                 </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="" class="social-link">
-                <svg class="footer-icon" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
