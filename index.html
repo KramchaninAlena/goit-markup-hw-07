@@ -201,7 +201,8 @@
           <ul class="work-list list">
             <li class="work-item">
               <img
-                src="./images/img1.jpg"
+                srcset="./images/desktop/desktop@2x.jpg 2x"
+                src="./images/desktop/desktop.jpg"
                 alt="website"
                 width="360"
                 class="block-list"
@@ -209,7 +210,8 @@
             </li>
             <li class="work-item">
               <img
-                src="./images/img2.jpg"
+                srcset="./images/desktop/mobile-app@2x.jpg 2x"
+                src="./images/desktop/mobile-app.jpg"
                 alt="app"
                 width="360"
                 class="block-list"
@@ -217,7 +219,8 @@
             </li>
             <li class="work-item">
               <img
-                src="./images/img3.jpg"
+                srcset="./images/desktop/design@2x.jpg 2x"
+                src="./images/desktop/design.jpg"
                 alt="design"
                 width="360"
                 class="block-list"
@@ -589,8 +592,6 @@
             ></textarea>
           </div>
           <label class="modal-check-text">
-            I accept the terms and conditions of the&nbsp;
-            <a href="" class="modal-check-link"> Privacy Policy</a>
             <input
               type="checkbox"
               name="user-policy"
@@ -601,6 +602,8 @@
                 <use href="./images/sprite.svg#icon-click"></use>
               </svg>
             </span>
+            <span>I accept the terms and conditions of</span> the&nbsp;
+            <a href="" class="modal-check-link"> Privacy Policy</a>
           </label>
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
